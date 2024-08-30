@@ -17,8 +17,7 @@ html{
     background-color: #581d229a;
     position: fixed;
     top: 10;
-    padding: 40px 40px 4px 4px;
-
+    padding: 25px 40px 25px 0px;
     z-index: 3;
     }
 
@@ -32,12 +31,23 @@ body{
 a {
     color: white;
 }
+
+.margin{
+    width: 100%;
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
 header{
+    width: 100%;
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 80rem;
-
+ 
        
 }
 
@@ -52,9 +62,6 @@ header{
 }
 
 .logo {
-    position: relative;
-    left: 80px;
-    bottom: 15px;
     height: 70px;
     width: 70px;
     background: transparent;
@@ -69,8 +76,6 @@ header{
 }
 
 .cabecalho-link{
-    position: relative;
-    right: 150px;
     display: flex;
     gap: 3rem;
     cursor: pointer;
@@ -297,7 +302,6 @@ p{
     justify-content: space-between;
     min-height: 10rem;
     width: 700px;
-
     border-radius: 10%;
 }
 
@@ -340,7 +344,84 @@ form textarea {
 /*  FINAL FALE COMIGO */
 
 
-@media(max-width: 1200px) {
+@media(max-width: 767px) {
+    .container-text {
+    margin: 0;
+    }
+
+    #inicio {
+        padding: 15% 0;
+        margin: 0% 10%;
+    }
+    .dudaApontando {
+        display: none;
+    }
+    .introducao, .textoStudio {
+        right: 0;
+        bottom: 0;
+    }
+    .introducao {
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }
+
+    .introducao, .parte2 {
+        font-size: 4rem;
+    }
+    
+    .rede-social a {
+        margin-left: -63px;
+    }
+
+    .servicos {
+        margin-top: -20%;
+        padding: 0 10%;
+    }
+
+    .servicos-container {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 25%;
+    }
+
+    .servicos-box {
+        align-items: center;
+    }
+
+    .agendeEspecifico, .agendeEspecifico1 {
+        left: 0;
+    }
+
+    button {
+        margin: 0;
+    }
+    
+    h3 {
+        line-height: normal;
+    }
+
+    .contato {
+        width: 365px;
+    }
+
+    .faleComigo {
+        font-size: 2.4rem;
+
+    }
+    
+    form textarea {
+        width: 85%;
+    }
+
+    
+
+
+
+
+
+
+
+
 
     
 }
