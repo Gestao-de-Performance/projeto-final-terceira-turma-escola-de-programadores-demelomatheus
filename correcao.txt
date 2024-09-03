@@ -1,4 +1,6 @@
 Mudanças,
 
 Verificar o tamanho dos botões dos serviços quando passa o mouse em cima.
-  
+
+Adicionar o menu de hamburguer no mobile.
+Ajeitar a Logo na versão mobile.
